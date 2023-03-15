@@ -1,0 +1,63 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.header{
+    width: 92.6%;
+    height: 200px;
+    background-image: url('images/for.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 50px;
+    opacity: 70%;
+}
+.header h1{
+    margin-top: 0;
+
+}
+.navbar{
+    background-color: rgb(209, 188, 155);
+    height: 50px;
+    position: sticky;
+    text-align: left;
+    top: 0;
+}
+.navbar a{
+    float: right;
+    text-decoration: none;
+    padding: 14px 50px;
+    color: black;
+    
+}
+.navbar :hover{
+    color: white;
+    background-color: rgb(206, 181, 151);
+}
+.row{
+    display: flex;
+}
+.side{
+    flex: 20%;
+    background-color: white;
+    padding: 20px;
+
+}
+.main{
+    flex: 70%;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+
+}
+.fakeimg{
+    background-color: rgb(129, 121, 121);
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+
+}
+.footer{
+    background-color: rgb(110, 85, 51);
+    text-align: center;
+    padding: 20px;
+}
